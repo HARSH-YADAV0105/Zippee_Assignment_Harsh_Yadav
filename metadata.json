@@ -1,0 +1,5 @@
+{
+  "name": "Star Wars Character Finder",
+  "description": "A responsive web application that displays a list of Star Wars characters using the Star Wars API (SWAPI). Users can browse characters, view detailed information, and search for specific characters.",
+  "requestFramePermissions": []
+}
