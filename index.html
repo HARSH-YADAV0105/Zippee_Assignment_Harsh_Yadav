@@ -43,27 +43,15 @@
       .animate-scaleUp {
         animation: scaleUp 0.3s ease-out forwards;
       }
-
-      /* 🔥 COMPLETELY HIDE SCROLLBAR BUT KEEP SCROLLING */
       .no-scrollbar {
-        scrollbar-width: none; /* Firefox */
-        -ms-overflow-style: none; /* Internet Explorer/Edge */
+        scrollbar-width: none;
+        -ms-overflow-style: none; 
       }
       .no-scrollbar::-webkit-scrollbar {
-        width: 0px; /* Chrome/Safari */
+        width: 0px; 
         background: transparent;
       }
     </style>
-
-    <script type="importmap">
-      {
-        "imports": {
-          "react/": "https://aistudiocdn.com/react@^19.2.0/",
-          "react": "https://aistudiocdn.com/react@^19.2.0",
-          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
-        }
-      }
-    </script>
     <link rel="stylesheet" href="/index.css" />
   </head>
   <body class="bg-gray-900 text-gray-100">
