@@ -16,8 +16,8 @@ export const SpeciesLegend: React.FC<SpeciesLegendProps> = ({ speciesMap }) => {
     <div className="flex flex-col items-center justify-center p-4 bg-gray-800/50 rounded-lg">
       <h3 className="text-sm font-semibold text-gray-300 mb-3">Species Key</h3>
       <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
-        {speciesList.map((name) => {
-          const color = stringToHslColor(name, 70, 60);
+        {speciesList.map((name) => {  
+          const color = stringToHslColor(name as string, 70, 60);
           return (
             <div key={name} className="flex items-center space-x-2">
               <div
